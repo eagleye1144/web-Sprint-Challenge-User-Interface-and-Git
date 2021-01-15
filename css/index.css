@@ -55,7 +55,31 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+header{
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.lambdaBlack{
+    height: 10%;
+}
+header nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 14px;
+        margin-left: 3%;
+        
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.headerImage{
+    margin-bottom: 5%;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,17 +125,106 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +257,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.aboutText{
+    margin: 2% 0 3% 2%;
+}
+.strategySection{
+    display: flex;
+    padding: 5% 0 2% 0;
+    border-top: 1px dashed black;
+}
+.strategy{
+    padding-bottom: 2%;
+    margin-right: 2%;
+    border-bottom: 1px dashed black;
+}
+.howWework{
+    border-bottom: 1px dashed black;
+    margin-left: 2%;
+}
+.placesWorksection{
+    display: flex;
+    padding-bottom: 2%;
+    margin: 5% 0 2% 0;
+}
+.places{
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    margin-right: 2%;
+}
+.colab{
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    margin-left: 2%;
+    
+}
+.workTogether{
+    margin: 0 2% 4% 2%;
+}
+button {
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 3%;
+    border: solid;
+    font-size: 14px;
+    transform: .5s;
+}
+button:hover{
+    background-color: rgb(243, 162, 162);
+    cursor: pointer;
+    border: solid thin black;
+}
+
